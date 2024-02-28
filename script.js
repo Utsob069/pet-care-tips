@@ -6,7 +6,7 @@ const navLinks = document.querySelector(".all-links");
 
 menuToggler.addEventListener("change", () => {
   navLinks.style.display = menuToggler.checked ? "block" : "none";
-});
+}); 
 
 // Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
